@@ -15,11 +15,11 @@ on:
           - 24.10.3
           - 24.10.4
       custom_router_ip:
-        description: "请设置路由器的管理地址(仅对多网口路由器有效) 格式:192.168.x.1 或 10.x.x.1"
+        description: "192.168.6.1"
         required: true
         default: "192.168.100.1"
       profile:
-        description: '请输入要编译固件大小 单位(MB)'
+        description: '10240'
         required: true
         default: '1024'
       enable_store:
@@ -45,10 +45,10 @@ on:
         - 'yes'
         - 'no'
       pppoe_account:
-        description: "宽带账号 (若启用PPPoE)"
+        description: "g13921495150"
         required: false
       pppoe_password:
-        description: "宽带密码 (若启用PPPoE)"
+        description: "830766"
         required: false
 
 jobs:
